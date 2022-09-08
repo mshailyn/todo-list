@@ -1,6 +1,6 @@
 # To-Do List Full Stack App
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
+A Simple ToDo App built by me and small group of web developers. This project was built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
 
 
 ![Picture of Site](public/images/mainpage-screenshot.png?raw=true "To-Do Application")
