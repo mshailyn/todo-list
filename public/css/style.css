@@ -1,11 +1,16 @@
+body{
+    font-family: 'Raleway', sans-serif !important;
+}
+
 h1{
-    color: white;
+    color: #f7b733 !important;
     font-size: 5rem;
 }
 .completed{
     text-decoration: line-through;
     color: gray;
 }
+
 .not{
     text-decoration: underline;
 }
@@ -15,6 +20,48 @@ h4{
     margin: none;
 }
 
+
+/* Sign-Up Screen */
+section.signup{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: .25rem solid #000000;
+    border-radius: 40px;
+    margin-top: 3%;
+    box-shadow: 5px 7px 26px 3px rgba(0,0,0,0.48);
+    padding: 2rem 5rem 1rem 5rem;
+    color:#4abdac;
+    background-color: white;
+    width: 50%
+}
+
+.signup form{
+    width: 100%;
+    padding: 0 2rem
+}
+section.signup .even span {
+    width: 30%;
+}
+
+section.signup .even .small {
+    margin-top: 2rem;
+}
+section.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.center input{
+    width: 15rem;
+}
+
+.signup h1{
+    margin-bottom: 3rem;
+}
+/* Sign-In Screen */
 .logProfile{
     display: flex;
     flex-direction: column;
@@ -27,13 +74,7 @@ h4{
     align-items: center;
 }
 
-.signup{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.login{
+.login {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +92,7 @@ h4{
     width: 25rem;
     height: 25rem
 }
-
+ 
 .login h1 {
     color:#4abdac;
 }

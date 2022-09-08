@@ -4,35 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+    <title>Sign Up</title>
 </head>
 <body>
-    <section class="signup">
-        <h1>Sign Up</h1>
-        <form action="/signup" method="POST">
-            <div class="form-control">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Enter your email">
-            </div>
-            <div class="form-control">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="Enter your password">
-            </div>
-            <div class="form-control">
-                <label for="confirmPassword">Confirm Password</label>
-                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm your password">
-            </div>
-            <button type="submit">Sign Up</button>
-        </form>
-    <% if (locals.messages.errors) { %>
-        <% messages.errors.forEach( el => { %>
-            <div class="alert alert-danger"><%= el.msg %></div>
-        <% }) %>    
-    <% } %>
-    </section>
-
+    <main>
+        <section class="logo">
+            <img class="login-img" src="/images/To-Do white.png" >
+        </section>
+        <section class="signup">
+            <h1>Sign Up</h1>
+            <% if (locals.messages.errors) { %>
+                <% messages.errors.forEach( el => { %>
+                    <div class="alert alert-danger"><%= el.msg %></div>
+                <% }) %>    
+            <% } %>
+            <form action="/signup" method="POST">
+                <section class="even">
+                    <span>Username: </span>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </section>
+                <section class="even">
+                    <span>Password:</span>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                </section>
+                <section class="even">
+                    <span>Confirm Password:</span>
+                    <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm your password">
+                </section>
+                <section class="center">
+                    <input type="submit">
+                </section>
+                <section class="even">
+                    <p class="small">If you don't have an account, click <a href="/login"> here </a> make one.</p>
+                </section>
+            </form>
+        </section>
+    </main>
     
 </body>
 </html>
+
+
+
+
+
