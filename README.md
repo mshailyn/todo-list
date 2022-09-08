@@ -3,7 +3,7 @@
 A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
 
 
-![Picture of Site](public/images/mainpage-screenshot.png?raw=true "Shailyn Moore's Portfolio")
+![Picture of Site](public/images/mainpage-screenshot.png?raw=true "To-Do Application")
 
 ## How It's Made:
 
