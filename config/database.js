@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const DB_STRING = 'mongodb+srv://mshailyn:bVC0Ia0ybFIRNXmA@cluster0.4ygox.mongodb.net/?retryWrites=true&w=majority'
 
 const connectDB = async () => {
   try {
