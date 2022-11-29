@@ -3,7 +3,8 @@
 A Simple ToDo App built by me and small group of web developers. This project was built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
 
 
-![Picture of Site](public/images/mainpage.gif?raw=true "To-Do Application")
+<h2 align="center"> <img src="/public/images/mainpage.gif" alt="Picture of Site"></h2>
+
 
 ## How It's Made:
 
